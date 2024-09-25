@@ -1,0 +1,25 @@
+{
+  "name": "archeprima",
+  "version": "0.0.1",
+  "description": "Arche Prima Materia",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "Opinion",
+    "Ciudadana"
+  ],
+  "bugs": {
+    "url": "https://github.com/suiGn/Arche/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suiGn/Arche.git"
+  },
+  "homepage": "https://arche.com.mx",
+  "docs": "https://suiGn.github.io/Arche",
+  "author": "suiGn",
+  "license": "MIT",
+  "repoType": "App"
+}
