@@ -21,5 +21,8 @@
   "docs": "https://suiGn.github.io/Arche",
   "author": "suiGn",
   "license": "MIT",
-  "repoType": "App"
+  "repoType": "App",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
 }
