@@ -1,7 +1,7 @@
 // apps/arche/index.js - Aplicación Arche que maneja múltiples dominios
 const express = require('express');
 const app = express();
-const PORT = 9000; // Adjust the port as necessary
+const PORT = process.env.PORT || 9001;
 
 // Middleware para manejar las rutas basadas en el dominio de origen
 app.use((req, res, next) => {

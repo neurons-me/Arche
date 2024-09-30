@@ -3,12 +3,26 @@
   "version": "0.0.1",
   "description": "Arche Prima Materia",
   "main": "index.js",
-  "scripts": {
-    "test": "test"
-  },
+    "scripts": {
+      "dev": "concurrently \"npm:dev:*\"",
+      "dev:api": "node index.js",
+      "dev:gui": "cd gui && vite",
+      "build": "cd gui && vite build",
+      "start": "node index.js",
+      "start:prod": "npm run build && npm run start"
+    },
+    "dependencies": {
+      "express": "^4.21.0",
+      "concurrently": "^7.0.0"
+    },
+    "devDependencies": {
+      "vite": "^4.0.0",
+      "react": "^18.0.0",
+      "react-dom": "^18.0.0"
+    },
   "keywords": [
-    "Opinion",
-    "Ciudadana"
+    "Natural Resources",
+    "Recursos Naturales"
   ],
   "bugs": {
     "url": "https://github.com/suiGn/Arche/issues"
@@ -21,8 +35,5 @@
   "docs": "https://suiGn.github.io/Arche",
   "author": "suiGn",
   "license": "MIT",
-  "repoType": "App",
-  "dependencies": {
-    "express": "^4.21.0"
-  }
+  "repoType": "App"
 }
